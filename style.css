@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(217, 28%, 15%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.hero {
+    font-family: 'Raleway';
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 100rem;
+    margin: auto;
+}
+
+.hero img {
+    padding-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+.hero p {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 2.5rem;
+    max-width: 50rem;
+    margin: auto;
+}
+
+.hero-btn {
+    background-color:hsl(176, 68%, 64%);
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1.6rem;
+    color:hsl(0, 0%, 100%);
+    border-radius: 5rem;
+    border: none;
+    padding: 1.5rem 9rem 1.5rem 9rem;
+}
+
+.feature-grid-container {
+    height: 100rem;
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    padding-top: 44rem;
+    margin-top: -20rem;
+}
+
+.feature-grid {
+    background-color:  hsl(218, 28%, 13%);
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-rows: 32rem 32rem;
+    grid-template-columns: 32rem 32rem;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.item1{
+    background-color:  hsl(218, 28%, 13%);
+}
+.item2{
+    background-color:  hsl(218, 28%, 13%);
+}
+.item3{
+    background-color:  hsl(218, 28%, 13%);
+}
+.item4{
+    background-color:  hsl(218, 28%, 13%);
+}
+
+
+.banner-cta {
+    background-color:hsl(218, 28%, 13%);
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+    padding: 8rem 2rem 8rem 2rem;
+}
+
+.banner-cta img {
+    padding-bottom: 3rem;
+}
+
+.testimonials-grid {
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.signup-form-container {
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.signup-form-container button {
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(176, 68%, 64%);
+}
+.footer {
+    background-color:  hsl(216, 53%, 9%);
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+}
